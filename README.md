@@ -16,7 +16,7 @@ Tanto o serviço da API quanto o Banco de Dados estão rodando no Azure.
 
 ### API Endpoints
 https://audacesapiteste.azurewebsites.net/api/sequence/  
-Função principal, recebe um objeto JSON do body no seguinte formato:
+Função principal, recebe um objeto JSON do body no seguinte formato:  
 {  
     "sequence": [1,2,5,20],  
     "target": 47  
