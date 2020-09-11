@@ -1,20 +1,20 @@
-## Audaces Teste
+# Audaces Teste
 A Solução está funcional, no começo encontrei um problema de lógica quando a sequência de retorno deveria repetir dois dos menores números, mas no fim acabei encontrando uma resolução que entrega o resultado esperado.
 
-# GraphQL
+### GraphQL
 Não me senti confortável para aprender GraphQL em tempo da execução do desafio.
 
-# Banco de dados
+### Banco de dados
 Também por conta do prazo, optei por não usar EF, mas conheço os fundamentos.
 
-# Testes
+### Testes
 Não tenho conhecimento de ferramentas de testes para implementar, então resolvi não abordar para não atrasar a entrega.
 PS.: Na cadeira de "Teste de Software" na faculdade, eu apresentei as ferramentas de teste que são nativas do VS, porém, faz um tempinho e não estava fresco na minha memória.
 
-# Web Deploy
+### Web Deploy
 Tanto o serviço da API quanto o Banco de Dados estão rodando no Azure.
 
-# API Endpoints
+### API Endpoints
 https://audacesapiteste.azurewebsites.net/api/sequence/
 Função principal, recebe um objeto JSON do body no seguinte formato:
 {
@@ -31,3 +31,5 @@ o.alvo -> inteiro recebido como parâmetro para analise;
 o.data_consulta -> data da realização da solicitação para a API;
 o.retorno -> retorno da API para a solicitação;
 
+### Tempo de desenvolvimento aproximado
+6 horas
