@@ -1,11 +1,11 @@
 # Audaces Teste
-A Solução está funcional, no começo encontrei um problema de lógica quando a sequência de retorno deveria repetir dois dos menores números, mas no fim acabei encontrando uma resolução que entrega o resultado esperado.
+A solução está funcional, no começo encontrei um problema de lógica quando a sequência de retorno deveria repetir dois dos menores números, mas no fim acabei encontrando uma resolução que entrega o resultado esperado.
 
 ### GraphQL
 Não me senti confortável para aprender GraphQL em tempo da execução do desafio.
 
 ### Banco de dados
-Também por conta do prazo, optei por não usar EF, mas conheço os fundamentos.
+Também por conta do prazo, optei por não usar EF, mas já utilizei no no trabalho e conheço um pouco.
 
 ### Testes
 Não tenho conhecimento de ferramentas de testes para implementar, então resolvi não abordar para não atrasar a entrega.
