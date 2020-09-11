@@ -15,21 +15,21 @@ PS.: Na cadeira de "Teste de Software" na faculdade, eu apresentei as ferramenta
 Tanto o serviço da API quanto o Banco de Dados estão rodando no Azure.
 
 ### API Endpoints
-https://audacesapiteste.azurewebsites.net/api/sequence/
+https://audacesapiteste.azurewebsites.net/api/sequence/  
 Função principal, recebe um objeto JSON do body no seguinte formato:
-{
-    "sequence": [1,2,5,20],
-    "target": 47
-}
-Retorna a sequencia possível ou uma mensagem informando sobre a impossibilidade.
+{  
+    "sequence": [1,2,5,20],  
+    "target": 47  
+}  
+Retorna a sequencia possível ou uma mensagem informando sobre a impossibilidade.  
 
-https://audacesapiteste.azurewebsites.net/api/history/{start_date}/{end_date}
+https://audacesapiteste.azurewebsites.net/api/history/{start_date}/{end_date}  
 Verifica as consultas a API realizadas dentro do período entre {start_date} e {end_date}
-recebe as datas no formato yyyy-MM-dd, retorna uma lista de objetos, sendo os objetos no seguinte formato:
-o.sequencia -> sequencia recebida por parâmetro para analise;
-o.alvo -> inteiro recebido como parâmetro para analise;
-o.data_consulta -> data da realização da solicitação para a API;
-o.retorno -> retorno da API para a solicitação;
+recebe as datas no formato yyyy-MM-dd, retorna uma lista de objetos, sendo os objetos no seguinte formato:  
+o.sequencia -> sequencia recebida por parâmetro para analise;  
+o.alvo -> inteiro recebido como parâmetro para analise;  
+o.data_consulta -> data da realização da solicitação para a API;  
+o.retorno -> retorno da API para a solicitação;  
 
 ### Tempo de desenvolvimento aproximado
 6 horas
