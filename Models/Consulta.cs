@@ -9,7 +9,7 @@ namespace Audaces.Models
     {
         public string sequencia { get; set; }
         public int alvo { get; set; }
-        public string data_hora { get; set; }
+        public string data_consulta { get; set; }
         public string retorno { get; set; }
 
         public Consulta() { }

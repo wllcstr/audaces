@@ -73,7 +73,7 @@ namespace Audaces.Models
 
                     oSqlComm.Parameters.AddWithValue("@sequencia", string.Join(", ", sequence));
                     oSqlComm.Parameters.AddWithValue("@alvo", target);
-                    oSqlComm.Parameters.AddWithValue("@data_hora", DateTime.Now.AddDays(-14));
+                    oSqlComm.Parameters.AddWithValue("@data_hora", DateTime.Now);
                     oSqlComm.Parameters.AddWithValue("@retorno", retorno);
                     oSqlComm.CommandText = @"INSERT INTO consultas
                                             (sequencia, alvo, data_hora, retorno)

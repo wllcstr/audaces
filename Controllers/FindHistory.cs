@@ -48,7 +48,7 @@ namespace Audaces.Controllers
                         Consulta c = new Consulta();
                         c.sequencia = dr["sequencia"].ToString();
                         c.alvo = (int)dr["alvo"];
-                        c.data_hora = string.Format("{0:dd/MM/yyyy}", dr["data_hora"]);
+                        c.data_consulta = string.Format("{0:dd/MM/yyyy}", dr["data_hora"]);
                         c.retorno = dr["retorno"].ToString();
 
                         consultas.Add(c);
